@@ -8,12 +8,12 @@
 }
 
 body {
-  background: #F1FAEE;
+  background: black;
 }
 
 h1,h4, p,
 a {
-  color: #457B9D;
+  color: white;
   text-decoration: none;
 }
 
@@ -25,9 +25,9 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: #E63946;
-  color: #F1FAEE;
-  border: 1px solid  #1D3557;
+  background: yellow;
+  color: #222;
+  border: 1px solid  fff;
   font-weight:600;
   cursor: pointer;
 }
@@ -38,7 +38,7 @@ ul {
 }
 
 .button:hover {
-  background: #A8DADC;
+  background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3;
 }
