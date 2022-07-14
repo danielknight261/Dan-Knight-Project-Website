@@ -1,9 +1,14 @@
 import "./NavBarStyles.css";
-import React from "react";
+import React, { useState } from "react"; 
 import { Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
+
 
 const NavBar = () => {
+
+  const[click, setClick] = useState(false);
+  const handleClick = () => setClick (!click);
+
   return (
     <div className="header">
       <Link to="/">
@@ -23,9 +28,12 @@ const NavBar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-      <div className="hamburger">
-        <FaBars size={20} style={{color: "#1D3557" }
-        } />
+      <div className="hamburger" onClick={handleClick}k>
+      {click ? (
+        <FaTimes size={20} style={{color: "#1D3557" }} />
+      ) : (
+        <FaBars size={20} style={{color: "#1D3557" } } />
+      )}
       </div>
     </div>
   );
