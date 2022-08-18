@@ -15,6 +15,8 @@ export const HeroImg = () => {
           <div>
           <Link to="/project" className="button">Projects</Link>
           <Link to="/contact" className="button-light">Contact</Link>
+          <Link to="/project" className="button">Download C.V</Link>
+          <Link to="/contact" className="button-light">Github</Link>
           </div>
         </div>
     </div>
