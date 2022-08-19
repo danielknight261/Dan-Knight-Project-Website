@@ -5,45 +5,31 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <div className="left">
-          <div className="location">
+
+        <div className="footer-contents">
+          <div>
             <AiOutlineHome
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
             />
-            <div>
-              <p>Birmingham,</p>
+            <p>Birmingham,</p>
               <p>West Midlands</p>
-            </div>
           </div>
-          <div className="email">
-          <AiOutlineMail
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+
+          <div>
+            <AiOutlineMail/>
             <p>danielknight261@gmail.com</p>
           </div>
-        </div>
+        
+          <div>
+           <AiOutlineLinkedin/>
+           <p>Linkedin</p>
+          </div>
 
-        <div className="right">
-          <div className="social">
-          <AiOutlineLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            <p>Linkedin</p>
-
-            <AiOutlineGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-              />
+          <div>
+            <AiOutlineGithub/>
             <p>Github</p>  
           </div>
-        
-          
         </div>
-
-        <div className="right"></div>
+        
       </div>
     </div>
   );
