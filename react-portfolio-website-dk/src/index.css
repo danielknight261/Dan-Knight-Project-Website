@@ -8,12 +8,12 @@
 }
 
 body {
-  background: black;
+  background: #ffffff;
 }
 
 h1,h4, p,
 a {
-  color: white;
+  color: #cd2028;
   text-decoration: none;
 }
 
@@ -25,8 +25,8 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: yellow;
-  color: #222;
+  background: #cd2028;
+  color: #fff;
   border: 1px solid  #fff;
   font-weight:600;
   cursor: pointer;
