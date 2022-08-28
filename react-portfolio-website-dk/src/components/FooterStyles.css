@@ -8,12 +8,13 @@
      max-width: 1140px;
      margin: auto;
      display: grid;
-     grid-template-columns: repeat(2,1fr);
+     grid-auto-columns: minmax(0, 1fr);
      grid-gap: 40px;
+     
 }
 
 .footer-contents {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .location {

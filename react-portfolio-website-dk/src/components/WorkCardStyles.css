@@ -13,12 +13,22 @@
 }
 
 .project-card {
-    background: #166c96;
+    background: white;
     padding: 1.2rem 1rem;
+    border-radius: 15px
 }
+
+
+.project-card:hover {
+    background: #166c96;
+    color: #fff;
+    transition: 0.3;
+  }
+
 
 .project-card img {
     width: 100%;
+    border-radius: 15px
 }
 
 .project-title {

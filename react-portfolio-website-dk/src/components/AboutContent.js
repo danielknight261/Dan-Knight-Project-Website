@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AboutContent = () => {
     return (
-        <div className="about">About Content
+        <div className="about">
           <div className="about-me">
             <h1>Who Am I ?</h1>
             <p>Im a full stack developer</p>
